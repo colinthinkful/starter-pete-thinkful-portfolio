@@ -16,9 +16,19 @@ h3 {
   text-align: center;
 }
 
+.about-header {
+  text-align: center;
+}
+
 /* Header */
 header {
   text-align: center;
+  text-wrap: nowrap;
+}
+
+header h1, header nav {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* Containers */
@@ -37,9 +47,31 @@ article div {
   width: 100%;
 }
 
+/* About section containers */
+.about-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.about-content {
+  text-align: left;
+}
+
+/* Portfolio section containers */
+.portfolio-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.portfolio-items section p {
+  font-size: 14px;
 }
 
 /* Links */
